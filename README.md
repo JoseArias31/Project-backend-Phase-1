@@ -1,4 +1,4 @@
-# **Phase 1**:
+# **Phase 1 & 2**:
 
 This is the 1st phase of my project.
 
