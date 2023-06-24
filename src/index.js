@@ -11,11 +11,11 @@ console.log(add(2, 4));
 
 console.log("\n---------3rd test, here I am implementing a conditional for my clients--------\n")
 
-console.log(delivery(C1.size, C1.num, C1.total));
+console.log(`First Client= "${delivery(C1.size, C1.num, C1.total)}"`);
 
-console.log(delivery(C2.size, C2.num, C2.total));
+console.log(`Second Client= "${delivery(C2.size, C2.num, C2.total)}"`);
 
-console.log(delivery(C3.size, C3.num, C3.total));
+console.log(`Third Client= "${delivery(C3.size, C3.num, C3.total)}"`);
 
 console.log("\n-----------------\n")
 
