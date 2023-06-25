@@ -20,6 +20,31 @@
 -Assigned the project to a classmate to receive feedback and suggestions.
 
 
+3rd Phase:
+
+-Once the second phase has been reviewed with no errors, I continued working on the steps to test my project. Here are the improvements made:
+
+-Installed Jest, the JavaScript testing framework, using the following command in a new terminal:
+Command: npm install jest --save-dev in a new terminal.
+
+-Updated the "package.json" file to include a script for running tests with Jest. Since I'm using Windows as my operating system, the command is: 
+
+"test": "node --experimental-vm-modules ./node_modules/jest/bin/jest.js --runInBand"
+This ensures that ESM (ECMAScript Modules) work properly with Jest.
+
+-Created a new file called "helper.js" to centralize all the main functions that will be tested.
+
+-Created another file called "helper.spec.js" where I wrote the test functions based on the "helper.js" file.
+
+-Used the import statement in the "helper.spec.js" file to connect the functions from the "helper.js" file. Instead of importing each function or variable individually, I used destructuring assignment to import them all at once:
+
+import { double, rectangleArea, hello,isMature, iteratesOne } from "./helper.js"
+
+-Wrote the test cases for the functions mentioned in the assignment, ensuring that they cover all the necessary scenarios.
+
+-Finally, set up a Continuous Integration (CI) pipeline using GitHub to automatically check my code. This pipeline can be configured to run the tests and provide feedback on the code's quality.
+
+-By following these steps, I established a robust testing setup using Jest and integrated it into a CI pipeline to ensure the reliability and quality of my code.
 
 
 
