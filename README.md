@@ -1,4 +1,4 @@
-# **Phase 1, 2 & 2**:
+# **Phase 1, 2 & 3**:
 
 1st Phase:
 
